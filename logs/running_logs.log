@@ -1,1 +1,67 @@
 [2023-06-07 10:19:43,634: INFO: main: Welcome to my custom log]
+[2023-06-12 21:34:59,140: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-12 21:34:59,160: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-12 21:34:59,163: INFO: common: created directory at: artifacts]
+[2023-06-12 21:34:59,166: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-12 21:35:07,088: INFO: 4037744573: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: AE04:4F8E:136AF4F:1718B9C:6487F1F3
+Accept-Ranges: bytes
+Date: Tue, 13 Jun 2023 04:35:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990025-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686630899.293175,VS0,VE1876
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: abfdffdb3082cfecf876e1683618faf826221a8c
+Expires: Tue, 13 Jun 2023 04:40:01 GMT
+Source-Age: 1
+
+]
+[2023-06-16 22:57:27,344: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<<]
+[2023-06-16 22:57:27,357: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-16 22:57:27,366: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-16 22:57:27,371: INFO: common: created directory at: artifacts]
+[2023-06-16 22:57:27,372: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-16 22:57:34,500: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6AEA:8568:554E4F:63F29B:648D4B48
+Accept-Ranges: bytes
+Date: Sat, 17 Jun 2023 05:57:28 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990027-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1686981448.940945,VS0,VE964
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0478cf61a7ea0c474b12a03454af50746ff04d4c
+Expires: Sat, 17 Jun 2023 06:02:28 GMT
+Source-Age: 1
+
+]
+[2023-06-16 22:57:34,947: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x======x]
