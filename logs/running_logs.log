@@ -86,3 +86,48 @@ x======x]
 [2023-06-25 13:13:57,958: INFO: common: created directory at: artifacts]
 [2023-06-25 13:13:57,961: INFO: common: created directory at: artifacts/prepare_base_model]
 [2023-06-25 13:15:02,422: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-25 13:44:44,455: INFO: main: >>>>>> stage Data ingestion stage started <<<<<<<]
+[2023-06-25 13:44:44,460: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-25 13:44:44,467: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-25 13:44:44,472: INFO: common: created directory at: artifacts]
+[2023-06-25 13:44:44,473: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-06-25 13:44:55,968: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 11616915
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "adf745abc03891fe493c3be264ec012691fe3fa21d861f35a27edbe6d86a76b1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D3CE:4340:B693B1:DCC5C4:6498A73C
+Accept-Ranges: bytes
+Date: Sun, 25 Jun 2023 20:44:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-fjr990027-FJR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1687725885.519616,VS0,VE1736
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4966b5523ed6a85895a0877f269387b7f61fbcc4
+Expires: Sun, 25 Jun 2023 20:49:46 GMT
+Source-Age: 1
+
+]
+[2023-06-25 13:44:56,460: INFO: main: >>>>>> stage Data ingestion stage completed <<<<<<
+
+x======x]
+[2023-06-25 13:44:56,462: INFO: main: *******************]
+[2023-06-25 13:44:56,463: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2023-06-25 13:44:56,472: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-25 13:44:56,477: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-25 13:44:56,481: INFO: common: created directory at: artifacts]
+[2023-06-25 13:44:56,482: INFO: common: created directory at: artifacts/prepare_base_model]
+[2023-06-25 13:44:58,364: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2023-06-25 13:44:59,527: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
