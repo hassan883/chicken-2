@@ -131,3 +131,11 @@ x======x]
 [2023-06-25 13:44:59,527: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
+[2023-06-25 23:01:14,649: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-25 23:01:14,769: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-25 23:01:14,783: INFO: common: created directory at: artifacts]
+[2023-06-25 23:02:28,701: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-25 23:02:28,710: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-25 23:02:28,713: INFO: common: created directory at: artifacts]
+[2023-06-25 23:02:28,720: INFO: common: created directory at: artifacts\prepare_callbacks\checkpoint_dir]
+[2023-06-25 23:02:28,724: INFO: common: created directory at: artifacts\prepare_callbacks\tensorboard_log_dir]
