@@ -195,3 +195,7 @@ x==========x]
 [2023-06-26 19:27:23,989: INFO: main: >>>>>> stage Training completed <<<<<<
 
 x==========x]
+[2023-06-27 00:48:57,664: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-06-27 00:48:57,719: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-06-27 00:48:57,729: INFO: common: created directory at: artifacts]
+[2023-06-27 00:51:25,216: INFO: common: json file saved at: scores.json]
